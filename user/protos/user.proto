@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package protos;
+
+service UserService {
+  rpc GetUserDetails (GetUserDetailsRequest) returns (GetUserDetailsResponse);
+  rpc SetUserDetails (SetUserDetailsRequest) returns (SetUserDetailsResponse);
+}
+
+message GetUserDetailsRequest {
+  string id = 1;
+}
+
+message GetUserDetailsResponse {
+  string message = 1;
+  string name = 2;
+}
+
+message SetUserDetailsRequest {
+  string id = 1;
+  string name = 2;
+}
+
+message SetUserDetailsResponse {
+  string message = 1;
+}
