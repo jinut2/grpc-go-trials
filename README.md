@@ -1,4 +1,4 @@
-# grpc-go-trials
+# grpc-go-trials [![Go Report Card](https://goreportcard.com/badge/github.com/jinut2/grpc-go-trials)](https://goreportcard.com/report/github.com/jinut2/grpc-go-trials)
 
 To generate go files for the protobuf
 ```
